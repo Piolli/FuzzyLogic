@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1EE2C26F3F805806688C6C /* Pods_Lab2_AI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DEA24C0D8AA12D6E770F5C4 /* Pods_Lab2_AI.framework */; };
 		A8268F58233870DC00079C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8268F57233870DC00079C6A /* AppDelegate.swift */; };
 		A8268F5A233870DC00079C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8268F59233870DC00079C6A /* ViewController.swift */; };
 		A8268F5C233870DD00079C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8268F5B233870DD00079C6A /* Assets.xcassets */; };
 		A8268F5F233870DD00079C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8268F5D233870DD00079C6A /* Main.storyboard */; };
+		A8DAF4D8234322F10046E38F /* Lab2_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DAF4D7234322F10046E38F /* Lab2_AITests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A8DAF4DA234322F10046E38F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8268F4C233870DC00079C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8268F53233870DC00079C6A;
+			remoteInfo = Lab2_AI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		54EDB6F4247DAD070E49C712 /* Pods-Lab2_AI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab2_AI.debug.xcconfig"; path = "Target Support Files/Pods-Lab2_AI/Pods-Lab2_AI.debug.xcconfig"; sourceTree = "<group>"; };
+		6DEA24C0D8AA12D6E770F5C4 /* Pods_Lab2_AI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab2_AI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8268F54233870DC00079C6A /* Lab2_AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab2_AI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8268F57233870DC00079C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8268F59233870DC00079C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,10 +35,22 @@
 		A8268F5E233870DD00079C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8268F60233870DD00079C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8268F61233870DD00079C6A /* Lab2_AI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lab2_AI.entitlements; sourceTree = "<group>"; };
+		A8DAF4D5234322F10046E38F /* Lab2_AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab2_AITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DAF4D7234322F10046E38F /* Lab2_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab2_AITests.swift; sourceTree = "<group>"; };
+		A8DAF4D9234322F10046E38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB57569A279C4233551ADF81 /* Pods-Lab2_AI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab2_AI.release.xcconfig"; path = "Target Support Files/Pods-Lab2_AI/Pods-Lab2_AI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A8268F51233870DC00079C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1EE2C26F3F805806688C6C /* Pods_Lab2_AI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DAF4D2234322F10046E38F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,11 +60,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20AAC9422BBEB532849CEC5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DEA24C0D8AA12D6E770F5C4 /* Pods_Lab2_AI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B1FAB3E1C7E86F201E6C7AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54EDB6F4247DAD070E49C712 /* Pods-Lab2_AI.debug.xcconfig */,
+				DB57569A279C4233551ADF81 /* Pods-Lab2_AI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A8268F4B233870DC00079C6A = {
 			isa = PBXGroup;
 			children = (
 				A8268F56233870DC00079C6A /* Lab2_AI */,
+				A8DAF4D6234322F10046E38F /* Lab2_AITests */,
 				A8268F55233870DC00079C6A /* Products */,
+				7B1FAB3E1C7E86F201E6C7AE /* Pods */,
+				20AAC9422BBEB532849CEC5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				A8268F54233870DC00079C6A /* Lab2_AI.app */,
+				A8DAF4D5234322F10046E38F /* Lab2_AITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +110,15 @@
 			path = Lab2_AI;
 			sourceTree = "<group>";
 		};
+		A8DAF4D6234322F10046E38F /* Lab2_AITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8DAF4D7234322F10046E38F /* Lab2_AITests.swift */,
+				A8DAF4D9234322F10046E38F /* Info.plist */,
+			);
+			path = Lab2_AITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -70,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8268F64233870DD00079C6A /* Build configuration list for PBXNativeTarget "Lab2_AI" */;
 			buildPhases = (
+				471B673ADED23B7863880C31 /* [CP] Check Pods Manifest.lock */,
 				A8268F50233870DC00079C6A /* Sources */,
 				A8268F51233870DC00079C6A /* Frameworks */,
 				A8268F52233870DC00079C6A /* Resources */,
+				2498B9909BBF6BCD2F529C02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -82,6 +140,24 @@
 			productName = Lab2_AI;
 			productReference = A8268F54233870DC00079C6A /* Lab2_AI.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A8DAF4D4234322F10046E38F /* Lab2_AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8DAF4DE234322F10046E38F /* Build configuration list for PBXNativeTarget "Lab2_AITests" */;
+			buildPhases = (
+				A8DAF4D1234322F10046E38F /* Sources */,
+				A8DAF4D2234322F10046E38F /* Frameworks */,
+				A8DAF4D3234322F10046E38F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8DAF4DB234322F10046E38F /* PBXTargetDependency */,
+			);
+			name = Lab2_AITests;
+			productName = Lab2_AITests;
+			productReference = A8DAF4D5234322F10046E38F /* Lab2_AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +171,10 @@
 				TargetAttributes = {
 					A8268F53233870DC00079C6A = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					A8DAF4D4234322F10046E38F = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = A8268F53233870DC00079C6A;
 					};
 				};
 			};
@@ -112,6 +192,7 @@
 			projectRoot = "";
 			targets = (
 				A8268F53233870DC00079C6A /* Lab2_AI */,
+				A8DAF4D4234322F10046E38F /* Lab2_AITests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +207,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8DAF4D3234322F10046E38F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2498B9909BBF6BCD2F529C02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab2_AI/Pods-Lab2_AI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lab2_AI/Pods-Lab2_AI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471B673ADED23B7863880C31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lab2_AI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8268F50233870DC00079C6A /* Sources */ = {
@@ -138,7 +273,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8DAF4D1234322F10046E38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DAF4D8234322F10046E38F /* Lab2_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8DAF4DB234322F10046E38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8268F53233870DC00079C6A /* Lab2_AI */;
+			targetProxy = A8DAF4DA234322F10046E38F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A8268F5D233870DD00079C6A /* Main.storyboard */ = {
@@ -269,9 +420,11 @@
 		};
 		A8268F65233870DD00079C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EDB6F4247DAD070E49C712 /* Pods-Lab2_AI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lab2_AI/Lab2_AI.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YG4U6S73S9;
@@ -282,15 +435,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sanya.Lab2-AI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		A8268F66233870DD00079C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB57569A279C4233551ADF81 /* Pods-Lab2_AI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lab2_AI/Lab2_AI.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YG4U6S73S9;
@@ -301,7 +457,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "sanya.Lab2-AI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A8DAF4DC234322F10046E38F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YG4U6S73S9;
+				INFOPLIST_FILE = Lab2_AITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanya.Lab2-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab2_AI.app/Contents/MacOS/Lab2_AI";
+			};
+			name = Debug;
+		};
+		A8DAF4DD234322F10046E38F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YG4U6S73S9;
+				INFOPLIST_FILE = Lab2_AITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sanya.Lab2-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab2_AI.app/Contents/MacOS/Lab2_AI";
 			};
 			name = Release;
 		};
@@ -322,6 +519,15 @@
 			buildConfigurations = (
 				A8268F65233870DD00079C6A /* Debug */,
 				A8268F66233870DD00079C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8DAF4DE234322F10046E38F /* Build configuration list for PBXNativeTarget "Lab2_AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8DAF4DC234322F10046E38F /* Debug */,
+				A8DAF4DD234322F10046E38F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
